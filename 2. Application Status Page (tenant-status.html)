@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Application Status - Florida Home Rental</title>
+</head>
+<body>
+
+<div class="navbar">
+    <div class="logo">Florida Home Rental</div>
+</div>
+
+<div class="container">
+    <div class="card">
+        <h2>Application Status</h2>
+
+        <p><strong>Property:</strong> 3254 Howell Branch Rd</p>
+        <p><strong>Date Applied:</strong> June 20, 2026</p>
+        <p><strong>Status:</strong> Pending Review</p>
+
+        <p style="margin-top:20px;">We will contact you at:</p>
+        <p><strong>howard@floridahome.spike.team</strong></p>
+    </div>
+</div>
+
+</body>
+</html>
