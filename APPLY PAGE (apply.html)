@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Apply - Florida Home Rental</title>
+</head>
+<body>
+
+<div class="navbar">
+    <div class="logo">Florida Home Rental</div>
+</div>
+
+<div class="container">
+    <div class="card">
+        <h2>Rental Application</h2>
+
+        <input type="text" placeholder="Full Name">
+        <input type="email" placeholder="Email">
+        <input type="text" placeholder="Phone Number">
+
+        <h3>Employment Info</h3>
+        <input type="text" placeholder="Employer Name">
+        <input type="text" placeholder="Monthly Income">
+
+        <h3>Upload Documents</h3>
+        <input type="file">
+        <input type="file">
+
+        <button>Submit Application</button>
+
+        <p style="margin-top:20px;">
+            Your application will be sent to:  
+            <strong>howard@floridahome.spike.team</strong>
+        </p>
+    </div>
+</div>
+
+</body>
+</html>
