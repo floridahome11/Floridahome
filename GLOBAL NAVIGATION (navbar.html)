@@ -1,0 +1,9 @@
+<div class="navbar">
+    <div class="logo">Florida Home Rental</div>
+    <div>
+        <a href="index.html">Home</a>
+        <a href="properties.html">Properties</a>
+        <a href="signin.html">Sign In</a>
+        <a href="signup.html">Sign Up</a>
+    </div>
+</div>
