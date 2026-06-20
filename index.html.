@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Florida Home Rental</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="navbar">
+    <div class="logo">Florida Home Rental</div>
+    <div>
+        <a href="properties.html">Properties</a>
+        <a href="signin.html">Sign In</a>
+        <a href="signup.html">Sign Up</a>
+    </div>
+</div>
+
+<div class="container">
+    <div class="card">
+        <h1>Welcome to Florida Home Rental</h1>
+        <p>Your trusted platform for finding quality rental homes in Florida.</p>
+
+        <button onclick="window.location='properties.html'">View Properties</button>
+    </div>
+
+    <div class="card">
+        <h2>Apply for a Property</h2>
+        <p>Start your rental application by paying the $20 application fee.</p>
+        <button onclick="window.location='checkout.html'">Start Application</button>
+    </div>
+
+    <div class="card">
+        <h2>Tenant Portal</h2>
+        <p>Already applied? Access your tenant dashboard.</p>
+        <button onclick="window.location='tenant-home.html'">Tenant Portal</button>
+    </div>
+
+    <div class="card">
+        <h2>Admin Login</h2>
+        <p>Property manager access only.</p>
+        <button onclick="window.location='admin-login.html'">Admin Portal</button>
+    </div>
+</div>
+
+<footer>
+    <p>Florida Home Rental © 2026</p>
+</footer>
+
+</body>
+</html>
