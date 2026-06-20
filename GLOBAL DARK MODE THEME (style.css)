@@ -1,0 +1,76 @@
+/* GLOBAL DARK MODE THEME */
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background: #0d0d0d;
+    color: #e6e6e6;
+}
+
+a {
+    color: #4da6ff;
+    text-decoration: none;
+}
+
+.navbar {
+    background: #111;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #222;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar a {
+    margin-left: 20px;
+    font-weight: 500;
+}
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 40px auto;
+}
+
+.card {
+    background: #1a1a1a;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    margin-bottom: 25px;
+}
+
+button {
+    background: #007bff;
+    border: none;
+    padding: 14px 22px;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #3399ff;
+}
+
+input, select {
+    width: 100%;
+    padding: 14px;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: 1px solid #333;
+    background: #111;
+    color: white;
+}
+
+footer {
+    background: #111;
+    padding: 30px;
+    text-align: center;
+    margin-top: 50px;
+    border-top: 1px solid #222;
+}
