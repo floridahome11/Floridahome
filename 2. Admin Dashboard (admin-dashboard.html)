@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Admin Dashboard - Florida Home Rental</title>
+</head>
+<body>
+
+<div class="navbar">
+    <div class="logo">Florida Home Rental - Admin</div>
+</div>
+
+<div class="container">
+    <h2>Admin Dashboard</h2>
+
+    <div class="card">
+        <h3>Applications</h3>
+        <p>View all tenant applications.</p>
+        <button onclick="window.location='admin-applications.html'">Open</button>
+    </div>
+
+    <div class="card">
+        <h3>Payments</h3>
+        <p>View all Stripe payments.</p>
+        <button onclick="window.location='admin-payments.html'">Open</button>
+    </div>
+
+    <div class="card">
+        <h3>Properties</h3>
+        <p>Manage your 10 rental properties.</p>
+        <button onclick="window.location='admin-properties.html'">Open</button>
+    </div>
+
+    <div class="card">
+        <h3>Tenants</h3>
+        <p>View all registered tenants.</p>
+        <button onclick="window.location='admin-tenants.html'">Open</button>
+    </div>
+
+    <div class="card">
+        <h3>Admin Settings</h3>
+        <button onclick="window.location='admin-settings.html'">Open</button>
+    </div>
+
+</div>
+
+</body>
+</html>
