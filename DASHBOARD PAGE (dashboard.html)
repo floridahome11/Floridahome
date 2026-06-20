@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Dashboard - Florida Home Rental</title>
+</head>
+<body>
+
+<div class="navbar">
+    <div class="logo">Florida Home Rental</div>
+</div>
+
+<div class="container">
+    <h2>Welcome to your Dashboard</h2>
+
+    <div class="card">
+        <h3>Applications</h3>
+        <p>View your submitted rental applications.</p>
+    </div>
+
+    <div class="card">
+        <h3>Settings</h3>
+        <button onclick="window.location='settings.html'">Open Settings</button>
+    </div>
+
+    <div class="card">
+        <h3>Logout</h3>
+        <button onclick="window.location='signin.html'">Logout</button>
+    </div>
+</div>
+
+</body>
+</html>
