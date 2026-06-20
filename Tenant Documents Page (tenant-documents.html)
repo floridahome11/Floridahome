@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Your Documents - Florida Home Rental</title>
+</head>
+<body>
+
+<div class="navbar">
+    <div class="logo">Florida Home Rental</div>
+</div>
+
+<div class="container">
+    <div class="card">
+        <h2>Your Documents</h2>
+
+        <h3>Upload ID</h3>
+        <input type="file">
+
+        <h3>Upload Pay Stubs</h3>
+        <input type="file">
+
+        <h3>Upload Proof of Income</h3>
+        <input type="file">
+
+        <button style="margin-top:20px;">Save Documents</button>
+    </div>
+</div>
+
+</body>
+</html>
