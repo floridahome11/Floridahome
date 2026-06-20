@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Admin Login - Florida Home Rental</title>
+</head>
+<body>
+
+<div class="navbar">
+    <div class="logo">Florida Home Rental - Admin</div>
+</div>
+
+<div class="container">
+    <div class="card">
+        <h2>Admin Login</h2>
+
+        <input type="email" placeholder="Admin Email">
+        <input type="password" placeholder="Password">
+
+        <button onclick="window.location='admin-dashboard.html'">Login</button>
+    </div>
+</div>
+
+</body>
+</html>
