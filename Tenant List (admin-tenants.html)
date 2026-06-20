@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Tenants - Admin</title>
+</head>
+<body>
+
+<div class="navbar">
+    <div class="logo">Florida Home Rental - Admin</div>
+</div>
+
+<div class="container">
+    <h2>Registered Tenants</h2>
+
+    <div class="card">
+        <h3>John Doe</h3>
+        <p>Email: johndoe@gmail.com</p>
+        <p>Status: Active</p>
+    </div>
+
+    <div class="card">
+        <h3>Jane Smith</h3>
+        <p>Email: janesmith@gmail.com</p>
+        <p>Status: Active</p>
+    </div>
+
+</div>
+
+</body>
+</html>
