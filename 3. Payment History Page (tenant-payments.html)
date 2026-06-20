@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Payment History - Florida Home Rental</title>
+</head>
+<body>
+
+<div class="navbar">
+    <div class="logo">Florida Home Rental</div>
+</div>
+
+<div class="container">
+    <div class="card">
+        <h2>Payment History</h2>
+
+        <p><strong>Application Fee:</strong> $20</p>
+        <p><strong>Status:</strong> Paid</p>
+        <p><strong>Payment Method:</strong> Stripe</p>
+        <p><strong>Date:</strong> June 20, 2026</p>
+
+        <button onclick="window.location='tenant-home.html'">Back to Portal</button>
+    </div>
+</div>
+
+</body>
+</html>
