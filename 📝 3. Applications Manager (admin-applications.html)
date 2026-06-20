@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Applications - Admin</title>
+</head>
+<body>
+
+<div class="navbar">
+    <div class="logo">Florida Home Rental - Admin</div>
+</div>
+
+<div class="container">
+    <h2>All Applications</h2>
+
+    <div class="card">
+        <h3>John Doe</h3>
+        <p>Property: 3254 Howell Branch Rd</p>
+        <p>Status: Pending</p>
+        <button>Approve</button>
+        <button style="background:#444;">Deny</button>
+    </div>
+
+    <div class="card">
+        <h3>Jane Smith</h3>
+        <p>Property: 2211 Cypress Pointe</p>
+        <p>Status: Under Review</p>
+        <button>Approve</button>
+        <button style="background:#444;">Deny</button>
+    </div>
+
+</div>
+
+</body>
+</html>
