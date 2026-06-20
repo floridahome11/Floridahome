@@ -1,0 +1,17 @@
+.verified-dopamine {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: #1d9bf0;
+    color: white;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.verify-icon {
+    width: 18px;
+    height: 18px;
+}
