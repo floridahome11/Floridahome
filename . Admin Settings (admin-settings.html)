@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Admin Settings - Florida Home Rental</title>
+</head>
+<body>
+
+<div class="navbar">
+    <div class="logo">Florida Home Rental - Admin</div>
+</div>
+
+<div class="container">
+    <div class="card">
+        <h2>Admin Settings</h2>
+
+        <input type="text" value="Admin Name">
+        <input type="email" value="howard@floridahome.spike.team">
+        <input type="password" placeholder="New Password">
+
+        <button>Save Changes</button>
+    </div>
+</div>
+
+</body>
+</html>
