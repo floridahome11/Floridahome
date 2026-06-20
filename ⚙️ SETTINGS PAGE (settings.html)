@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Settings - Florida Home Rental</title>
+</head>
+<body>
+
+<div class="navbar">
+    <div class="logo">Florida Home Rental</div>
+</div>
+
+<div class="container">
+    <div class="card">
+        <h2>Account Settings</h2>
+
+        <input type="text" value="Your Name">
+        <input type="email" value="howard@floridahome.spike.team">
+        <input type="text" value="9296331203">
+        <input type="password" placeholder="New Password">
+
+        <button>Save Changes</button>
+    </div>
+</div>
+
+</body>
+</html>
