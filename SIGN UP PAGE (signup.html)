@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Sign Up - Florida Home Rental</title>
+</head>
+<body>
+
+<div class="navbar">
+    <div class="logo">Florida Home Rental</div>
+</div>
+
+<div class="container">
+    <div class="card">
+        <h2>Create Account</h2>
+
+        <input type="text" placeholder="Full Name">
+        <input type="email" placeholder="Email">
+        <input type="password" placeholder="Password">
+        <input type="password" placeholder="Confirm Password">
+
+        <button onclick="window.location='dashboard.html'">Create Account</button>
+
+        <p style="margin-top:20px;">
+            Already have an account? <a href="signin.html">Sign In</a>
+        </p>
+    </div>
+</div>
+
+</body>
+</html>
